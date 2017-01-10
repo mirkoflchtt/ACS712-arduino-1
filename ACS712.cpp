@@ -29,7 +29,7 @@ int ACS712::calibrate() {
 	return _zero;
 }
 
-void setZeroPoint(int _zero) {
+void ACS712::setZeroPoint(int _zero) {
 	zero = _zero;
 }
 
