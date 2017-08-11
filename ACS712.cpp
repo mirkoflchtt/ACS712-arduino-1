@@ -1,5 +1,5 @@
 #include "ACS712.h"
-
+int zero; 
 ACS712::ACS712(ACS712_type type, uint8_t _pin) {
 	switch (type) {
 		case ACS712_05B:
