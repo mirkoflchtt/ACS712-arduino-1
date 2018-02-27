@@ -19,7 +19,7 @@ void setup() {
 
 void loop() {
   // Get current from sensor
-  float I = sensor.getCurrentDC()
+  float I = sensor.getCurrentDC();
   
   // Send it to serial
   Serial.println(String("I = ") + I + " A");
