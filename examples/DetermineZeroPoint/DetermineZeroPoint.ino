@@ -11,7 +11,7 @@ ACS712 sensor(ACS712_30A, A1);
 void setup() {
   Serial.begin(9600);
 
-  float zero_point = sensor.calibrate();
+  float zero_point = (float)sensor.calibrate();
   
   Serial.print("Zero point for this sensor is ");
   Serial.println(zero_point);
